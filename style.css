@@ -38,7 +38,7 @@ ul{
     width: 565px;
     height: 60px;
     display: flex;
-    box-shadow: 1px 2px 6px #80368C;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
