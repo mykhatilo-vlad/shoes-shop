@@ -48,7 +48,10 @@ ul{
     outline: none;
     background-color: #98EBED;
     border-radius: 5px 0 0 5px;
-    padding: 10px;
+    padding: 20px;
+    color: #80368C;
+    font-style: italic;
+    font-size: 18px;
 }
 
 .search-string::placeholder{
