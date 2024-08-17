@@ -66,6 +66,112 @@ ul{
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.blur-head{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: calc(50% - 400px / 2 - -199px);
+    top: calc(50% - 400px / 2 + 215px);
+    background: #80368C;
+    filter: blur(50px);
+    border-radius: 50%;
+}
+
+.blur-head-2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 200px / 2 + 735px);
+    top: calc(50% - 200px / 2 - 320px);
+    background: #80368C;
+    filter: blur(50px);
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 190px;
+    background: linear-gradient(102.39deg, #DAC1D3 0%, #EDDDFF 100%);
+    height: 100%;
+    height: 100vh;
+}
+
+.head-content-text{
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    color: #80368C;
+    margin-bottom: 15px;
+}
+
+.head-content-title{
+    font-size: 64px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.head-second-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    margin-top: 15px;
+}
+
+.head-content-link{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 35px;
+    background: #80368C;
+    border-radius: 10px;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slide-img img {
+    display: block;
+    width: 600px;
+    height: 670px;
+    object-fit: cover;
+    position: relative;
+  }
+
+.swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active{
+    background-color: #80368C;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.swiper-pagination .swiper-pagination-bullet{
+    width: 100px;
+    border-radius: 4px;
+}
+
+.swiper-pagination .swiper-pagination-bullets{
+    border-radius: 4px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+    margin: 40px 0;
+
     padding: 15px;
     display: flex;
     justify-content: center;
