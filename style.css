@@ -224,7 +224,7 @@ ul{
 }
 
 
-.swiper-slide-content{
+.swiper-slide{
     cursor: pointer;
     background: transparent;
     box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
@@ -235,11 +235,11 @@ ul{
     transition: all .5s ease;
 }
 
-.swiper-slide-content:hover{
+.swiper-slide:hover{
     transform: translateY(-2%);
 }
 
-.swiper-slide-content:active{
+.swiper-slide:active{
     transform: translateY(2%);
 }
 
@@ -256,10 +256,14 @@ ul{
     height: 480px;
 }
 
+.swiper-popular{
+    padding: 0 60px;
+}
+
 .swiper-pagination-content.swiper-pagination-clickable,
 .swiper-pagination-bullets{
     position: relative;
-    margin: 10px 0;
+    margin: 40px 0;
 }
 
 .swiper-pagination-content .swiper-pagination-bullet{
