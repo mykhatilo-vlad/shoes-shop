@@ -464,3 +464,37 @@ ul{
     font-weight: 600;
     color: #fff;
 }
+
+
+/* Choose style */
+
+
+.choose-head{
+    background: linear-gradient(102.39deg, #DAC1D3 0%, #EDDDFF 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.choose-title{
+    font-size: 64px;
+    font-weight: 600;
+    padding: 124px;
+}
+
+.choose-shoes{
+    padding: 60px;
+}
+
+.choose-link{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 35px;
+    background: #80368C;
+    border-radius: 10px;
+    color: #EDDDFF;
+}
+
+.choose-btn{
+    text-align: center;
+    margin: 100px 0 120px 0;;
+}
