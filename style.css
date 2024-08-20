@@ -366,6 +366,7 @@ ul{
     background-color: #843690;
     padding: 20px 35px;
     border-radius: 10px;
+    transition: all .25s ease;
 }
 
 .more-btn:hover{
@@ -492,9 +493,176 @@ ul{
     background: #80368C;
     border-radius: 10px;
     color: #EDDDFF;
+    transition: all .25s ease;
+}
+
+.choose-link:hover{
+    background-color: #6d2f76;
 }
 
 .choose-btn{
     text-align: center;
     margin: 100px 0 120px 0;;
+}
+
+.filter{
+    padding: 90px 60px 0 60px;
+}
+
+.dropdown-btn{
+    position: relative;
+    display: block;
+    width: 435px;
+    height: 60px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #98EBED;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    padding: 0 60px 0px 20px;
+    font-weight: 500%;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.dropdown-btn::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn.hugeicons.com/icons/arrow-down-01-stroke-standard.svg);
+    pointer-events: none;
+}
+
+.dropdown-list{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 52px;
+    margin: 0;
+    padding: 0;
+    background-color: #98EBED;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 10px;
+    width: 435px;
+    z-index: 1;
+    margin-top: 15px;
+}
+
+.dropdown-list--visible{
+    display: block;
+}
+
+.dropdown-list-item{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #78cdce;
+    padding: 20px;
+    border-bottom: 0;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.dropdown-list-item:hover{
+    background-color: #80d7d8;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-input-hidden{
+    display: none;
+}
+
+.search-filter{
+    background-color: transparent;
+    height: 60px;
+    width: 435px;
+    display: flex;
+    box-shadow: 0px 8px 12px 6px rgba(186, 106, 106, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.search-string-filter{
+    border: none;
+    outline: none;
+    background-color: #98EBED;
+    padding: 20px;
+    font-size: 16px;
+    color: #0a0911;
+    overflow: hidden;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.search-string-filter::placeholder{
+    color: #80368C;
+    font-style: italic;
+}
+
+.share{
+    width: 435px;
+    border-right: 1px solid #735D8D;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.label-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.checkbox-fake{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.checkbox-fake:checked + .checkbox-real svg{
+    display: block;
+}
+
+.checkbox-real{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #98EBED;
+    margin-right: 25px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.checkbox-real svg{
+    transform: translate(6px, 5px);
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.droppop-btn{
+    width: 309px;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(433px, auto));
+    gap: 30px 0;
+}
+
+.droppop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
