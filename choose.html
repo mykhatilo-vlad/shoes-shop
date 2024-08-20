@@ -50,7 +50,87 @@
         <div class="choose-head">
             <h1 class="choose-title">Великий вибір взуття</h1>
         </div>
-        <section class="filter"></section>
+
+        <section class="filter">
+          <form action="" class="form-group">
+
+            <div class="dropdown">
+            <button class="dropdown-btn" type="button" id="myButton">Всі розміри</button>
+             <ul class="dropdown-list"> 
+              <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+              <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+              <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+              <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+             </ul>
+             <input type="text" name="select-category" value="" class="dropdown-input-hidden">
+            </div>
+
+            <div class="dropdown">
+              <button class="dropdown-btn" type="button">Всі устілки</button>
+               <ul class="dropdown-list"> 
+                <li class="dropdown-list-item" data-value="size">Всі устілки</li>
+                <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+               </ul>
+               <input type="text" name="select-category" value="" class="dropdown-input-hidden">
+              </div>
+
+              <div class="dropdown">
+                <button class="dropdown-btn" type="button">Всі бренди</button>
+                 <ul class="dropdown-list"> 
+                  <li class="dropdown-list-item" data-value="size">Всі бренди</li>
+                  <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                  <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                  <li class="dropdown-list-item" data-value="size">Конорєйка</li>
+                 </ul>
+                 <input type="text" name="select-category" value="" class="dropdown-input-hidden">
+                </div>
+
+                <div class="dropdown">
+                  <button class="dropdown-btn" type="button">Для хлопчика та дівчинки</button>
+                   <ul class="dropdown-list"> 
+                    <li class="dropdown-list-item" data-value="size">Для хлопчика та дівчинки</li>
+                    <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                    <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                    <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                   </ul>
+                   <input type="text" name="select-category" value="" class="dropdown-input-hidden">
+                  </div>
+                 
+                <div class="search-filter">
+                  <input class="search-string-filter" type="search" placeholder="Пошук...">
+               </div>
+               
+               <div class="second-row"></div>
+               
+               <div class="share">
+                <label class="label-checkbox">
+                  <p class="checkbox-text">Зі знижкою:</p>
+                  <input type="checkbox" class="checkbox-fake">
+                  <div class="checkbox-real">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M20.1757 5.26268C20.5828 5.63587 20.6103 6.26844 20.2372 6.67556L9.23715 18.6756C9.05285 18.8766 8.79441 18.9937 8.52172 18.9996C8.24903 19.0055 7.98576 18.8998 7.79289 18.7069L3.29289 14.2069C2.90237 13.8164 2.90237 13.1832 3.29289 12.7927C3.68342 12.4022 4.31658 12.4022 4.70711 12.7927L8.46859 16.5542L18.7628 5.32411C19.136 4.91699 19.7686 4.88948 20.1757 5.26268Z" fill="#141B34"/>
+                      </svg>
+                  </div>
+                </label>
+               </div>
+
+               <div class="dropdown droppop">
+                <p class="droppop-text">Сортувати за:</p>
+                <button class="dropdown-btn droppop-btn" type="button">Популярні</button>
+                 <ul class="dropdown-list"> 
+                  <li class="dropdown-list-item" data-value="size">Популярні</li>
+                  <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                  <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                  <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                 </ul>
+                 <input type="text" name="select-category" value="" class="dropdown-input-hidden">
+                </div>
+
+          </form>
+        </section>
+
         <section class="choose-shoes">
             <div class="new-shoes-assortment">
                 <div class="new-shoes-item">
@@ -241,5 +321,7 @@
           </a>
         </div>
       </footer>  
+
+    <script src="./select.js"></script>
 </body>
 </html>
