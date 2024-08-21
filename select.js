@@ -13,3 +13,14 @@ document.querySelectorAll('.dropdown-list-item').forEach(function (listItem) {
         this.closest('.dropdown-list').classList.remove('dropdown-list--visible');
     });
 });
+
+
+
+const smallImages = document.querySelectorAll('.small-img');
+const productImg = document.getElementById('ProductImg');
+
+smallImages.forEach(img => {
+    img.addEventListener('click', function() {
+        productImg.src = this.src;
+    });
+});
