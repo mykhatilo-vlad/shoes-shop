@@ -24,3 +24,42 @@ smallImages.forEach(img => {
         productImg.src = this.src;
     });
 });
+
+
+// cart
+
+document.querySelector('.plus').addEventListener('click', function() {
+    const number = document.querySelector('.number');
+    let currentValue = parseInt(number.textContent, 10);
+    number.textContent = currentValue + 1;
+});
+
+document.querySelector('.minus').addEventListener('click', function() {
+    const number = document.querySelector('.number');
+    let currentValue = parseInt(number.textContent, 10);
+    number.textContent = currentValue - 1;
+});
+
+
+document.querySelector('.plus').addEventListener('click', function() {
+
+    const number = document.querySelector('.number');
+    const sum = document.querySelector('.sum');
+    
+    let sumValue = parseInt(sum.textContent, 10);
+    let price = 810;
+    sum.textContent = sumValue + price;
+
+});
+
+document.querySelector('.minus').addEventListener('click', function() {
+
+    const number = document.querySelector('.number');
+    const sum = document.querySelector('.sum');
+    
+    let sumValue = parseInt(sum.textContent, 10);
+    let price = 810;
+    sum.textContent = sumValue - price;
+
+});
+
