@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="#" class="logo">
+               <img src="./images/logo.svg" alt="logo" class="logo-img">
+            </a>
+            <nav class="menu">
+               <ul class="menu-list"> 
+                   <li class="menu-list-item">
+                       <a href="" class="menu-list-link">Сезон</a>
+                   </li>
+                   <li class="menu-list-item">
+                       <a href="" class="menu-list-link">Популярні</a>
+                   </li>
+                   <li class="menu-list-item">
+                       <a href="./choose.html" class="menu-list-link">Нові</a>
+                   </li>
+                   <li class="menu-list-item">
+                       <a href="" class="menu-list-link">Оплата і доставка</a>
+                   </li>
+                   <li class="menu-list-item">
+                       <a href="" class="menu-list-link">Контакти</a>
+                   </li>
+               </ul>
+            </nav>
+           <form action="#" class="search">
+               <input class="search-string" type="search" placeholder="Пошук...">
+               <button class="search-btn" type="submit">
+                   <img class="search-img" src="./images/Search.svg" alt="">
+               </button>
+           </form>
+         </div>
+    </header>
+
+    <main class="main">
+        <div class="choose-head">
+            <h1 class="choose-title">Кошик</h1>
+        </div>
+
+        <section class="cart">
+            <div class="cart-container">
+             <div class="cart-box">
+                 <div class="cart-details-block">
+                 <div class="cart-details">
+                    <h3 class="cart-details-text">Взуття</h3>
+                    <h3 class="cart-details-text">Розмір</h3>
+                    <h3 class="cart-details-text">Ціна</h3>
+                    <h3 class="cart-details-text">Кількість</h3>
+                    <h3 class="cart-details-text">Сума</h3>
+                </div>
+                <div class="cart-details cart-info">
+                  <div class="cart-images">
+                    <img src="./images/img-basket.svg" alt="" class="cart-img">
+                    <p class="cart-text">Кросівки дитячі ТМ Apawwa</p>
+                  </div>
+                  <div class="dropdown drop-details">
+                    <button class="dropdown-btn dropcart-btn" type="button">21 - 14см</button>
+                     <ul class="dropdown-list dropcart-list"> 
+                      <li class="dropdown-list-item" data-value="size">21 - 14см</li>
+                      <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                      <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                      <li class="dropdown-list-item" data-value="size">Всі розміри</li>
+                     </ul>
+                     <input type="text" name="select-category" value="" class="dropdown-input-hidden">
+                    </div>
+                    <span class="cart-price">810грн</span>
+                    <div class="cart-number">
+                        <span class="minus">
+                            <img src="./images/Minus.png" alt="" class="plus-img">
+                        </span>
+                        <span class="number">1</span>
+                        <span class="plus minus">
+                            <img src="./images/Plus Math.png" alt="" class="minus-img">
+                        </span>
+                    </div>
+                    <div class="sum-value">
+                       <span class="sum">810</span>
+                       <span class="price">грн</span>
+                    </div>
+                </div>
+              </div>
+              <div class="cart-border">
+              </div>
+             </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+          <img src="./images/footer-logo.svg" alt="" class="footer-img">
+          <a href="https://www.google.com.ua/maps/place/%D1%83%D0%BB.+%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%B0+%D0%98%D0%B2%D0%B0%D1%81%D1%8E%D0%BA%D0%B0,+4,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0,+%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+36000/@49.5701278,34.5764441,16.75z/data=!4m6!3m5!1s0x40d82f82a1cf46c5:0xed820dc3921aca3a!8m2!3d49.5698644!4d34.5788562!16s%2Fg%2F1tp8yksc?hl=ru&entry=ttu" class="footer-title-link">
+          <h3 class="footer-title">вул. Володимира Івасюка, 4, Полтава, Полтавська обл.</h3>
+          </a>
+          <a href="https://www.instagram.com/milanka.shoes?igsh=OWhyaWZjOTh5N3lo" class="footer-link">
+            <img class="footer-inst-icon" src="./images/footer-inst-img.png" alt="">
+            <span class="footer-inst-link">milanka.shoes</span>
+          </a>
+        </div>
+      </footer>
+
+      <script src="./select.js"></script>
+</body>
+</html>
