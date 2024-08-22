@@ -76,8 +76,8 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 190px;
     background: linear-gradient(102.39deg, #DAC1D3 0%, #EDDDFF 100%);
+    padding: 100px 190px;
     height: 100%;
     height: 100vh;
 }
