@@ -78,8 +78,8 @@ ul{
     align-items: center;
     background: linear-gradient(102.39deg, #DAC1D3 0%, #EDDDFF 100%);
     padding: 100px 190px;
-    height: 100%;
     height: 100vh;
+    width: 100%;
 }
 
 .head-content-text{
@@ -893,7 +893,7 @@ ul{
     display: none;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
     .burger-menu{
         display: block;
     }
@@ -933,7 +933,7 @@ ul{
     }
     .header-inner{     
         display: grid;
-        grid-template-columns: 640px 35px 40px 200px;
+        grid-template-columns: 560px 35px 40px 200px;
         padding: 25px 35px;
     }
     .search{
@@ -961,6 +961,5 @@ ul{
     }
     .swiper-slide.swiper-slide-active{
         width: 391px;
-        margin-right: 20px;
     }
 }
