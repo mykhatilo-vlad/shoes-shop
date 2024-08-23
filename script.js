@@ -29,3 +29,9 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
+const burgerMenu = document.querySelector('.burger-menu');
+const menu = document.querySelector('.menu-list');
+
+burgerMenu.addEventListener('click', ()=> {
+  menu.classList.toggle('menu-list--active');
+})
