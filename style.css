@@ -933,33 +933,46 @@ ul{
     }
     .header-inner{     
         display: grid;
-        grid-template-columns: 560px 35px 40px 200px;
+        grid-template-columns: 535px 35px 40px 200px;
         padding: 25px 35px;
     }
     .search{
         display: none;
     }
     .head-content{
-        padding: 100px 35px;
+        padding: 100px 44px;
+        height: 80vh;
     }
     .slide-img img{
-        width: 400px;
-        height: 472px;
+        width: 320px;
+        height: 375px;
     }
     .slide-img::before{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+    }
+    .head-content-title{
+        font-size: 60px;
+        line-height: 1.1;
     }
     .head-content-text{
-        font-size: 22px;
+        font-size: 20px;
     }
     .head-content-link{
-        font-size: 22px;
+        font-size: 18px;
     }
     .head-second-text{
-        font-size: 19px;
+        font-size: 18px;
     }
-    .swiper-slide.swiper-slide-active{
-        width: 391px;
+    .swiper-slide-img{
+        width: 309px;
+        height: 359px;
+    }
+    .swiper__img-size{
+        width: 309px;
+        height: 359px;
+    }
+    .product-card-name{
+        width: 150px;
     }
 }
