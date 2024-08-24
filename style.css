@@ -897,6 +897,7 @@ ul{
     .burger-menu{
         display: block;
     }
+
     .menu-list{
         position: absolute;
         background-color: black;
@@ -914,91 +915,131 @@ ul{
         transform: translateY(-100%);
         transition: all .75s ease;
     }
+
     .menu-list--active{
         transform: translateY(0);
     }
+
     .burger-menu{
         position: relative;
         z-index: 10;
     }
+
     .menu-list-link{
         color: #FFFFFF;
     }
+
     .search-icon{
         display: block;
         margin-top: 2px;
     }
+
     .logo{
         height: 95px;
     }
+
     .header-inner{     
         display: grid;
         grid-template-columns: 535px 35px 40px 200px;
         padding: 25px 35px;
     }
+
     .search{
         display: none;
     }
+
     .head-content{
         padding: 100px 44px;
         height: 80vh;
     }
+
     .slide-img img{
         width: 320px;
         height: 375px;
     }
+
     .slide-img::before{
         width: 250px;
         height: 250px;
     }
+
     .head-content-title{
         font-size: 60px;
         line-height: 1.1;
     }
+
     .head-content-text{
         font-size: 20px;
     }
+
     .head-content-link{
         font-size: 18px;
     }
+
     .head-second-text{
         font-size: 18px;
     }
+
     .swiper-slide-img{
         width: 309px;
         height: 359px;
     }
+    
+    .new-shoes-assortment {
+        grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+        gap: 50px 0;
+    }
+
+    .slide-img img {
+        width: 320px;
+        height: 375px;
+    }
+
+    .slide-img::before {
+        width: 250px;
+        height: 250px;
+    }
+
     .swiper__img-size{
         width: 310px;
         height: 345px;
-     }
+    }
+
     .swiper-slide__img{
         width: 310px;
         height: 345px;
     }
+
     .new-shoes-item{
         height: 100%;
         width: 310px;
     }
+
     .product-card-name{
         width: 140px;
     }
+
     .new-shoes-window {
         padding: 30px 40px;
     }
+
     .new-shoes-assortment{
         grid-template-columns: repeat(auto-fit, minmax(310px, auto));
         gap: 50px 0;
     }
+
     .last-three-shoes{
         flex-wrap: wrap;
     }
+
     .pay-delivery-box{
         width: 310px;
     }
+
     .pay-delivery-text{
         font-size: 14px;
     }
+    
     .footer-title-link{
         display: contents;
     }
