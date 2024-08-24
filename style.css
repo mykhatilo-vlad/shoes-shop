@@ -969,10 +969,37 @@ ul{
         height: 359px;
     }
     .swiper__img-size{
-        width: 309px;
-        height: 359px;
+        width: 310px;
+        height: 345px;
+     }
+    .swiper-slide__img{
+        width: 310px;
+        height: 345px;
+    }
+    .new-shoes-item{
+        height: 100%;
+        width: 310px;
     }
     .product-card-name{
-        width: 150px;
+        width: 140px;
+    }
+    .new-shoes-window {
+        padding: 30px 40px;
+    }
+    .new-shoes-assortment{
+        grid-template-columns: repeat(auto-fit, minmax(310px, auto));
+        gap: 50px 0;
+    }
+    .last-three-shoes{
+        flex-wrap: wrap;
+    }
+    .pay-delivery-box{
+        width: 310px;
+    }
+    .pay-delivery-text{
+        font-size: 14px;
+    }
+    .footer-title-link{
+        display: contents;
     }
 }
