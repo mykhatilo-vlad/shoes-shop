@@ -990,16 +990,6 @@ ul{
         gap: 50px 0;
     }
 
-    .slide-img img {
-        width: 320px;
-        height: 375px;
-    }
-
-    .slide-img::before {
-        width: 250px;
-        height: 250px;
-    }
-
     .swiper__img-size{
         width: 310px;
         height: 345px;
@@ -1039,7 +1029,7 @@ ul{
     .pay-delivery-text{
         font-size: 14px;
     }
-    
+
     .footer-title-link{
         display: contents;
     }
