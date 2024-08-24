@@ -1003,3 +1003,138 @@ ul{
         display: contents;
     }
 }
+
+.product-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-2%);
+}
+
+.product-card__link {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    font-size: 0;
+}
+
+.product-card__img {
+    width: 100%;
+}
+
+.product-card__img img {
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.product-card__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+}
+
+.product-card__box button {
+    position: relative;
+    z-index: 1;
+    flex-shrink: 0;
+}
+
+.product-card__info h4 {
+    margin-block: 0 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: #80368C;
+}
+
+.product-card__info span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #735D8D;
+}
+
+.cart-btn {
+    padding: 10px 20px;
+    background: #80368C;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: #EDDDFF;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.cart-btn:hover,
+.cart-btn:focus-visible {
+    background-color: #735D8D;
+    box-shadow: none;
+}
+
+.swiper.swiper-four-columns {
+    padding-inline: 5px;
+    /* відступи по бокам, щоб тінь не обрізалась. в даному випадку не ідеально. але непогано */
+    padding-top: 10px;
+    /* те саме щоб тінь зверху не обрізалась */
+}
+
+@media screen and (min-width: 1200px) {
+    .swiper.swiper-four-columns {
+        padding-inline: 15px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .swiper.swiper-four-columns {
+        padding-inline: 10px;
+    }
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.category-card:hover,
+.category-card:focus-visible {
+    transform: translateY(-2%);
+}
+
+.category-card__img {
+    width: 100%;
+    aspect-ratio: 1 / 1.15;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.category-card__title {
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #80368C;
+    margin: 0;
+}
