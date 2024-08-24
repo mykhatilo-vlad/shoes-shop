@@ -1138,3 +1138,10 @@ ul{
     color: #80368C;
     margin: 0;
 }
+
+.new-shoes-assortment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 65px 20px;
+}
