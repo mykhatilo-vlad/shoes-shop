@@ -893,6 +893,10 @@ ul{
     }
 
     .menu-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         position: absolute;
         background-color: black;
         opacity: 0.9;
@@ -1028,6 +1032,150 @@ ul{
         display: contents;
     }
 }
+
+@media (max-width: 425px) {
+
+    .header-inner{
+        grid-template-columns: 245px 35px 40px 200px;
+        padding: 25px 25px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .head-content{
+        padding: 100px 20px;
+        height: 65vh;
+    }
+
+    .head-content-title{
+        font-size: 35px;
+    }
+
+    .head-content-text{
+        font-size: 12px;
+    }
+
+    .head-second-text{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .slide-img img {
+        width: 164px;
+        height: 191px;
+    }
+
+    .slide-img::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .slide-img::after {
+        width: 100px;
+        height: 100px;
+    }
+
+    .head-content-link {
+        font-size: 10px;
+    }
+
+    .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active {
+        background-color: #80368C;
+        width: 100px;
+        border-radius: 4px;
+    }
+
+    .swiper-pagination .swiper-pagination-bullet {
+        width: 50px;
+        border-radius: 4px;
+        background: #735D8D;
+        opacity: 100;
+    }
+
+    .menu-list--active{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+        padding: 80px;
+    }
+
+    .swiper-pagination-content.swiper-pagination-bullets .swiper-pagination-bullet-active{
+        width: 20px;
+    }
+
+    .swiper-pagination-content .swiper-pagination-bullet {
+        width: 10px;
+    }
+
+    .new-shoes-assortment .product-card{
+        width: 148px;
+    }
+
+    .product-card button{
+        font-size: 12px;
+    }
+
+    .new-shoes-assortment h4 {
+        font-size: 13px;
+    }
+
+    .product-card__info span{
+        font-size: 16px;
+    }
+
+    .new-shoes-window{
+        padding: 30px;
+    }
+
+    .slider-window-title{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .new-shoes-title,
+    .pay-delivery-title{
+        font-size: 40px;
+    }
+
+    .more-btn{
+        font-size: 18px;
+    }
+
+    .pay-delivery-box{
+        width: 150px;
+        height: 250px;
+    }
+
+    .pay-delivery-img{
+        width: 80px;
+    }
+
+    .pay-delivery-name{
+        font-size: 24px;
+    }
+
+    .pay-delivery-text{
+        font-size: 11px;
+    }
+
+    .pay-delivery{
+        padding: 25px;
+    }
+
+    .footer-title{
+        font-size: 20px;
+    }
+
+    .footer-img{
+        width: 120px;
+    }
+}
+
+
+
 
 .product-card {
     position: relative;
