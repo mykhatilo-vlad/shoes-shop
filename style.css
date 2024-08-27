@@ -237,11 +237,7 @@ ul{
 }
 
 .swiper-slide:hover{
-    transform: translateY(-2%);
-}
-
-.swiper-slide:active{
-    transform: translateY(2%);
+    transform: translateY(-1%);
 }
 
 .swiper-slide-img{
@@ -361,6 +357,7 @@ ul{
     padding: 20px 35px;
     border-radius: 10px;
     transition: all .25s ease;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3)
 }
 
 .more-btn:hover{
@@ -748,6 +745,8 @@ ul{
 }
 
 .product-details-link{
+    border: none;
+    cursor: pointer;
     font-size: 24px;
     font-weight: 600;
     color: #EDDDFF;
@@ -762,10 +761,6 @@ ul{
     background-color: #6d2f76;
 }
 
-.product-details-btn{
-    margin-top: 30px;
-}
-
 .small-container{
     background: #FFFFFF;
     box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 0px 4px rgba(0, 0, 0, 0.3);
@@ -775,13 +770,10 @@ ul{
 }
 
 #ProductImg{
-    width: 636px;
     height: 626px;
 }
 
 .small-img{
-    height: 210px;
-    width: 216px;
     cursor: pointer;
     object-fit: cover;
     border-radius: 5px;
@@ -804,7 +796,6 @@ ul{
 
 .cart-details{
     display: grid;
-    width: 1129px;
     grid-template-columns: 29% 18% 16.5% 16% 13%;
     align-items: center;
     gap: 20px;
@@ -820,6 +811,8 @@ ul{
     display: grid;
     gap: 30px;
     margin-top: 20px;
+    width: 100%;
+    max-width: 1129px;
 }
 
 .cart-images{
@@ -1181,7 +1174,11 @@ ul{
     }
 
     .new-shoes-assortment .product-card{
-        width: 170px;
+        width: 160px;
+    }
+
+    .new-shoes-assortment{
+        gap: 35px 10px;
     }
 
     .product-card button{
@@ -1197,7 +1194,7 @@ ul{
     }
 
     .new-shoes-window{
-        padding: 20px;
+        padding: 15px;
     }
 
     .slider-window-title{
