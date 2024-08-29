@@ -1426,6 +1426,15 @@ ul{
     .choose-title{
         font-size: 54px;
     }
+
+    .choose-shoes{
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .choose-shoes .new-shoes-assortment{
+        gap: 35px 10px;
+    }
 }
 
 .product-card {
