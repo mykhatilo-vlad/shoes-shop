@@ -279,10 +279,12 @@ ul{
 
 .product-box{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px;
+    align-items: flex-start;
+    padding: 20px 10px;
     max-width: 430px;
+    gap: 10px;
 }
 
 .product-card-name{
@@ -463,6 +465,10 @@ ul{
 }
 
 
+
+
+
+
 /* Choose style */
 
 
@@ -502,7 +508,7 @@ ul{
 }
 
 .filter{
-    padding: 90px 60px 0 60px;
+    padding: 90px 60px 0;
 }
 
 .dropdown-btn{
@@ -683,6 +689,18 @@ ul{
     font-weight: 600;
     color: #735D8D;
 }
+
+.filter-btn span:hover{
+    color: #80368C;
+}
+
+
+
+
+
+
+
+
 /* shoes.html style */
 
 
@@ -796,6 +814,13 @@ ul{
     object-fit: cover;
     border-radius: 5px;
 }
+
+
+
+
+
+
+
 
 /* cart style */
 
@@ -1023,6 +1048,18 @@ ul{
 
     .footer-title-link{
         display: block;
+    }
+
+    .swiper-popular{
+        padding: 30px 40px;
+    }
+
+    .new-shoes-window{
+        padding: 30px 40px;
+    }
+
+    .filter{
+        padding: 90px 55px 0;
     }
 }
 
@@ -1258,7 +1295,6 @@ ul{
 
     .head-content-link {
         font-size: 10px;
-        font-size: 28px;;
     }
 
     .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active {
@@ -1294,11 +1330,16 @@ ul{
         width: 160px;
     }
 
+    .new-shoes-item{
+        width: 160px;
+    }
+
     .new-shoes-assortment{
         gap: 35px 10px;
     }
 
-    .product-card button{
+    .product-card button,
+    .product-box button{
         font-size: 12px;
     }
 
@@ -1306,7 +1347,8 @@ ul{
         font-size: 13px;
     }
 
-    .product-card__info span{
+    .product-card__info span,
+    .product-card-info span{
         font-size: 16px;
     }
 
@@ -1355,6 +1397,34 @@ ul{
 
     .footer-img{
         width: 120px;
+    }
+
+    .dropdown-btn,
+    .search-filter,
+    .share,
+    .dropdown-list{
+        width: 320px;
+    }
+
+    .droppop-btn{
+        width: 220px;
+    }
+
+    .swiper-slide__img{
+        width: 100%;
+        height: 175px;
+    }
+
+    .droppop-text{
+        font-size: 12px;
+    }
+
+    .choose-link{
+        font-size: 16px;
+    }
+
+    .choose-title{
+        font-size: 54px;
     }
 }
 
