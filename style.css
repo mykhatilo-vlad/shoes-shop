@@ -657,14 +657,32 @@ ul{
     gap: 30px 0;
 }
 
+
 .droppop{
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+.filter-btn{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    display: none;
+}
 
+.filter-btn img{
+    height: 25px;
+}
 
+.filter-btn span{
+    font-size: 26px;
+    font-weight: 600;
+    color: #735D8D;
+}
 /* shoes.html style */
 
 
@@ -950,6 +968,13 @@ ul{
     display: none;
 }
 
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .burger-menu{
         display: block;
@@ -1094,7 +1119,42 @@ ul{
     .footer-title-link{
         display: contents;
     }
+
+    .filter-btn{
+        display: block;
+        padding: 0;
+    }
+
+    .form-group{
+        display: none;
+    }
+    
+    .form-group--active{
+        display: grid;
+        gap: 20px 0;
+        margin-top: 20px;
+    }
+
+    .choose-shoes{
+        padding: 30px;
+    }
+
+    .filter{
+        padding: 90px 40px 0 40px;
+    }
+
+    .choose-title{
+        text-align: center;
+    }
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 425px) {
 

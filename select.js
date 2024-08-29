@@ -14,6 +14,20 @@ document.querySelectorAll('.dropdown-list-item').forEach(function (listItem) {
     });
 });
 
+const burgerMenu = document.querySelector('.burger-menu');
+const menu = document.querySelector('.menu-list');
+
+burgerMenu.addEventListener('click', () => {
+  menu.classList.toggle('menu-list--active');
+})
+
+const buttonFilter = document.querySelector('.filter-btn');
+const formGroup = document.querySelector('.form-group');
+
+buttonFilter.addEventListener('click', () => {
+  formGroup.classList.toggle('form-group--active');
+})
+
 
 
 const smallImages = document.querySelectorAll('.small-img');
@@ -97,3 +111,6 @@ document.querySelectorAll('.remove').forEach((removeButton) => {
   });
   
   updateTotalSum();
+
+
+  
