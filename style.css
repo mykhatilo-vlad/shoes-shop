@@ -972,6 +972,62 @@ ul{
 
 
 
+@media (max-width: 1025px) {
+    .search{
+        display: none;
+    }
+
+    .search-icon{
+        display: block;
+        margin-top: 5px;
+    }
+
+    .menu-list-link{
+        font-size: 22px;
+    }
+
+    .header-inner{
+        padding: 25px 40px;
+    }
+
+    .slide-img img{
+        width: 445px;
+        height: 500px;
+    }
+
+    .slide-img::before{
+        width: 300px;
+        height: 300px;
+    }
+
+    .head-content{
+        padding: 100px 65px;
+        height: 95vh;
+    }
+
+    .head-content-title{
+        font-size: 60px;
+    }
+
+    .head-second-text{
+        font-size: 18px;
+    }
+
+    .head-content-text{
+        font-size: 22px;
+    }
+
+    .pay-delivery-text{
+        font-size: 16px;
+    }
+
+    .footer-title-link{
+        display: block;
+    }
+}
+
+
+
 
 
 
@@ -1202,6 +1258,7 @@ ul{
 
     .head-content-link {
         font-size: 10px;
+        font-size: 28px;;
     }
 
     .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active {
