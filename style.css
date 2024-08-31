@@ -659,7 +659,8 @@ ul{
 
 .form-group{
     display: grid;
-    
+    /* grid-template-columns: repeat(auto-fit, minmax(433px, auto)); */
+
     gap: 30px 20px;
 }
 
@@ -1115,8 +1116,6 @@ ul{
         margin-top: 50px;
     }
 }
-
-
 
 
 
