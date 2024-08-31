@@ -1061,6 +1061,19 @@ ul{
     .filter{
         padding: 90px 55px 0;
     }
+
+    .small-container{
+        width: auto;
+        height: auto;
+    }
+
+    .row-product{
+        display: block;
+    }
+
+    .product-details-info{
+        margin-top: 50px;
+    }
 }
 
 
