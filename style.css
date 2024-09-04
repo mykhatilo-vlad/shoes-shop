@@ -134,6 +134,7 @@ ul{
     align-items: center;
 }
 
+
 .slide-img {
     position: relative;
     isolation: isolate;
@@ -229,7 +230,6 @@ ul{
     cursor: pointer;
     background: transparent;
     box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
-    border-radius: 15px;
     width: 430px;
     height: 560px;
     overflow: hidden;
@@ -1038,11 +1038,12 @@ ul{
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
     .header-inner{
         flex-wrap: wrap;
         padding: 20px 45px;
         gap: 0;
+        
     }
 
     .menu-list-link{
@@ -1228,7 +1229,6 @@ ul{
 
     .head-content{
         padding: 100px 44px;
-        height: 80vh;
     }
 
     .slide-img img{
@@ -1348,10 +1348,10 @@ ul{
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
 
     .header-inner{
-        grid-template-columns: 78% 5% 5%;
+        grid-template-columns: 78% 15% 7%;
         padding: 25px 25px;
     }
 
@@ -1363,7 +1363,7 @@ ul{
         display: flex;
         flex-direction: column;
         padding: 40px 65px 100px 65px;
-        height: 60vh;
+        height: 90vh;
     }
 
     .head-content-title{
@@ -1416,15 +1416,15 @@ ul{
         display: flex;
         justify-content: center;
         gap: 45px;
-        padding: 80px;
+        padding: 30px;
     }
 
     .swiper-pagination-content.swiper-pagination-bullets .swiper-pagination-bullet-active{
-        width: 20px;
+        width: 16px;
     }
 
     .swiper-pagination-content .swiper-pagination-bullet {
-        width: 10px;
+        width: 8px;
     }
 
     .new-shoes-assortment .product-card{
@@ -1534,6 +1534,13 @@ ul{
 
     .choose-shoes .new-shoes-assortment{
         gap: 35px 10px;
+    }
+
+}
+
+@media (max-width: 380px){
+    .head-content{
+        height: 110vh;
     }
 }
 
