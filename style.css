@@ -468,7 +468,6 @@ ul{
 
 
 
-
 /* Choose style */
 
 
@@ -1038,6 +1037,54 @@ ul{
 
 
 
+
+@media (max-width: 1200px) {
+    .header-inner{
+        flex-wrap: wrap;
+        padding: 20px 45px;
+        gap: 0;
+    }
+
+    .menu-list-link{
+        font-size: 20px;
+    }
+
+    .logo{
+        height: 100px;
+    }
+
+    .search{
+        height: 50px;
+        margin-left: auto;
+    }
+
+    .head-content{
+        padding: 100px 60px;
+    }
+
+    .slide-img img{
+        aspect-ratio: 1 / 1.2;
+        width: auto;
+        height: 560px;
+    }
+
+    .slide-img::before {
+        width: 350px;
+        height: 350px;
+    }
+
+    .head-text{
+        position: relative;
+        z-index: 1;
+    }
+}
+
+
+
+
+
+
+
 @media (max-width: 1025px) {
     .search{
         display: none;
@@ -1212,8 +1259,8 @@ ul{
     }
 
     .swiper-slide-img{
-        width: 309px;
-        height: 359px;
+        width: 100%;
+        height: 100%;
     }
     
     .new-shoes-assortment {
@@ -1254,7 +1301,7 @@ ul{
     }
 
     .pay-delivery-box{
-        width: 310px;
+         width: 100%;
     }
 
     .pay-delivery-text{
@@ -1313,8 +1360,9 @@ ul{
     }
 
     .head-content{
-        padding: 100px 20px;
-        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 65px 100px 65px;
     }
 
     .head-content-title{
@@ -1327,12 +1375,12 @@ ul{
 
     .head-second-text{
         font-size: 12px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .slide-img img {
-        width: 164px;
-        height: 191px;
+        width: 278px;
+        height: 315px;
     }
 
     .slide-img::before {
@@ -1423,7 +1471,6 @@ ul{
     }
 
     .pay-delivery-box{
-        width: 150px;
         height: 250px;
     }
 
