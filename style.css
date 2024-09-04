@@ -1536,9 +1536,12 @@ ul{
         gap: 35px 10px;
     }
 
+    .swiper-popular {
+        padding: 10px 40px;
+    }
 }
 
-@media (max-width: 395px){
+@media (max-width: 380px){
     .head-content{
         height: 110vh;
     }
