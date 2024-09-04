@@ -1363,6 +1363,7 @@ ul{
         display: flex;
         flex-direction: column;
         padding: 40px 65px 100px 65px;
+        height: 60vh;
     }
 
     .head-content-title{
@@ -1394,7 +1395,7 @@ ul{
     }
 
     .head-content-link {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .swiper-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active {
