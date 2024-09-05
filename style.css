@@ -1033,8 +1033,40 @@ ul{
     display: none;
 }
 
+.burger-menu span{
+    height: 6px;
+    width: 100%;
+    background-color: #80368C;
+    border-radius: 10px;
+    display: block;
+    transition: all .7s ease;
+}
 
+.burger-menu--active span:nth-child(1){
+    transform: rotateZ(45deg);
+    position: absolute;
+    transition: all .7s ease;
+}
 
+.burger-menu--active span:nth-child(2){
+    transform: scale3d(0, 0, 0);
+    position: absolute;
+    transition: all .7s ease;
+}
+
+.burger-menu--active span:nth-child(3){
+    transform: rotateZ(135deg);
+    position: absolute;
+    transition: all .7s ease;
+}
+
+.burger-menu--active{
+    position: absolute;
+}
+
+.swiper-popular .swiper-slide{
+    border-radius: 15px;
+}
 
 
 
@@ -1042,8 +1074,7 @@ ul{
     .header-inner{
         flex-wrap: wrap;
         padding: 20px 45px;
-        gap: 0;
-        
+        gap: 0;     
     }
 
     .menu-list-link{
@@ -1051,16 +1082,18 @@ ul{
     }
 
     .logo{
-        height: 100px;
+        height: 70px;
     }
 
     .search{
-        height: 50px;
+        height: 45px;
         margin-left: auto;
+        flex-basis: 400px;
     }
 
     .head-content{
         padding: 100px 60px;
+        height: 100%;
     }
 
     .slide-img img{
@@ -1170,7 +1203,9 @@ ul{
 
 @media (max-width: 1025px) {
     .burger-menu{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .menu-list{
@@ -1204,6 +1239,11 @@ ul{
         z-index: 10;
     }
 
+    .burger-menu--active{
+    position: absolute;
+    }
+
+
     .menu-list-link{
         color: #FFFFFF;
     }
@@ -1219,7 +1259,7 @@ ul{
 
     .header-inner{     
         display: grid;
-        grid-template-columns: 78% 5% 5%;
+        grid-template-columns: 75% 0% 5%;
         padding: 25px 35px;
     }
 
@@ -1363,7 +1403,7 @@ ul{
         display: flex;
         flex-direction: column;
         padding: 40px 65px 100px 65px;
-        height: 90vh;
+        justify-content: space-around;
     }
 
     .head-content-title{

@@ -52,3 +52,15 @@ const menu = document.querySelector('.menu-list');
 burgerMenu.addEventListener('click', () => {
   menu.classList.toggle('menu-list--active');
 })
+
+
+const burgerBtn = document.querySelector('.burger-menu');
+
+burgerBtn.addEventListener('click', () => {
+    burgerBtn.classList.toggle('burger-menu--active');
+    if (burgerBtn.classList.contains('.burger-menu')) {
+        burgerBtn.classList.remove('burger-menu--active');
+    } else {
+        burgerBtn.classList.add('burger-menu');
+    }
+})
